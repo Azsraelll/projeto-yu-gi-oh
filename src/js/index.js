@@ -21,6 +21,12 @@ btnVoltar.addEventListener("click", function () {
   mostrarCartao(cartaoAtual);
 });
 
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * Mostra o cart o com o ndice especificado.
+ * @param {number} cartaoAtual - ndice do cart o que ser  mostrado.
+ */
+/******  3fd12a36-e9db-4e5e-a183-6de4f73dcd33  *******/
 function mostrarCartao(cartaoAtual) {
   cartoes[cartaoAtual].classList.add("selecionado");
 }
